@@ -1,0 +1,83 @@
+/*Cabeçalho*/
+.titulo h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+
+/*Conteudo*/
+
+/*html{
+    background: silver;
+}*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#888888, #FEFEFE);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.titulos{
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+ul{
+    margin-left: 10px;
+}
+
+.botoes{
+    padding-top: 30px;
+    text-align: right;
+    margin-right:60px;
+    font-size: 20px;
+}
+
+.botoes li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.botoes a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.formacao{
+    margin-top: 15px;
+}
+
+.formacao li{
+    display: inline-block;
+    vertical-align:middle;
+}
+
+.formacao h2, .experiencia h2, .cursos h2{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.item:before{
+    content:"• ";
+    text-align: left;
+    font-weight: bold;
+}
+
+.item-img{
+    text-align: center;
+}
+
+
+/*Rodapé*/
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright{
+    font-weight: bold;
+    margin: 20px 0;
+}
